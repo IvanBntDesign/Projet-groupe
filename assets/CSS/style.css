@@ -1,4 +1,5 @@
 /* -------------------- Général - Début ------------------- */
+
 /* -------------------- Général - Fin --------------------- */
 
 /* -------------------- Zone 1 - Début ------------------- */
@@ -8,6 +9,29 @@
 /* -------------------- Zone 2 - Fin --------------------- */
 
 /* -------------------- Zone 3 - Début ------------------- */
+
+#zone-3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "Plat-1 Intérieur-resto"
+    "Façade Membre-équipe Plat-2";
+}
+#photo-plat-1 {
+    grid-area: Plat-1;
+}
+#photo-interieur {
+    grid-area: Intérieur-resto;
+}
+#photo-façade {
+    grid-area: Façade;
+}
+#photo-membre {
+    grid-area: Façade;
+}
+#photo-plat-2 {
+    grid-area: Façade;
+}
 /* -------------------- Zone 3 - Fin --------------------- */
 
 /* -------------------- Zone 4 - Début ------------------- */
