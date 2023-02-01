@@ -15,26 +15,24 @@ img {
 }
 #zone-3 {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 30vh 30vh 30vh;
     grid-template-areas: 
-    "Plat-1 Intérieur-resto"
-    "Façade Membre-équipe Plat-2";
+    "a b c"
+    "d d e";
 }
-#photo-plat-1 {
-    grid-area: Plat-1;
+.photo-plat-1 {
+    grid-area:a;
 }
-#photo-interieur {
-    grid-area: Intérieur-resto;
+.photo-interieur {
+    grid-area:b;
 }
-#photo-façade {
-    grid-area: Façade;
+.photo-façade {
+    grid-area:c;
 }
-#photo-membre {
-    grid-area: Membre-équipe;
+.photo-membre {
+    grid-area:d;
 }
-#photo-plat-2 {
-    grid-area: Plat-2;
+.photo-plat-2 {
+    grid-area:e;
 }
 /* -------------------- Zone 3 - Fin --------------------- */
 
