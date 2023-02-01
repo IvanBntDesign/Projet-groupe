@@ -1,7 +1,28 @@
 /* -------------------- Général - Début ------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neuton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 body, html {
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
+
+/* -------------------- Général - Fin --------------------- */
+
+/* -------------------- Zone 1 - Début ------------------- */
+/* -------------------- Zone 1 - Fin --------------------- */
+
+/* -------------------- Zone 2 - Début ------------------- */
+/* -------------------- Zone 2 - Fin --------------------- */
+
+/* -------------------- Zone 3 - Début ------------------- */
+.container-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+/* -------------------- Zone 3 - Fin --------------------- */
+
+/* -------------------- Zone 4 - Début ------------------- */
 form {
     margin: auto;
     text-align: center;
@@ -24,17 +45,5 @@ form input {
 .button:hover {
     background-color: #B4471C;
 }
-/* -------------------- Général - Fin --------------------- */
-
-/* -------------------- Zone 1 - Début ------------------- */
-/* -------------------- Zone 1 - Fin --------------------- */
-
-/* -------------------- Zone 2 - Début ------------------- */
-/* -------------------- Zone 2 - Fin --------------------- */
-
-/* -------------------- Zone 3 - Début ------------------- */
-/* -------------------- Zone 3 - Fin --------------------- */
-
-/* -------------------- Zone 4 - Début ------------------- */
 /* -------------------- Zone 4 - Fin --------------------- */
 
