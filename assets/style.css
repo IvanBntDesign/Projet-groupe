@@ -7,7 +7,7 @@ body {
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     width: 100%;
-    height: 90vh;
+    height: 300vh;
 }
 
 /* -------------------- Général - Début ------------------- */
@@ -32,7 +32,7 @@ a:hover {
     color: brown;
 }
 .navbar{
-    padding: 10px;
+    padding: 5px;
     background-color: rgb(255, 255, 255);
     position: -webkit-sticky;
     position: sticky;
@@ -47,6 +47,7 @@ a:hover {
     height: 100%;
     background-image: url("https://img.freepik.com/photos-gratuite/vue-du-chef-travaillant-dans-cuisine_23-2149728014.jpg?w=900&t=st=1675257599~exp=1675258199~hmac=88042dc5bd20e75084361b5aaee22728d2fe2cd705c832629bf2c597e189d984");
     background-size: 1600px 750px;
+    background-repeat: no-repeat;
 }
 /* -------------------- Zone 1 - Fin --------------------- */
 
