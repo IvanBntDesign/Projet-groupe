@@ -6,6 +6,8 @@
 
 /* -------------------- Zone 2 - Début ------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neuton&display=swap');
 
 body,
 html {
@@ -30,7 +32,7 @@ html {
 }
 
 #formule-menu {
-    background-color: #FDF2E2;
+    background-color: #c47602;
     width: 30%;
     display: flex;
     flex-direction: column;
@@ -43,7 +45,7 @@ html {
 }
 #presentation {
     display: flex;
-    background-color: blue;
+    background-color: rgb(88, 88, 193);
     width: 30%;
     flex-direction: column;
     align-items: center;
@@ -58,14 +60,23 @@ html {
 }
 
 #info-resto {
-    background-color: green;
     width: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 100vh;
     text-align: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+}
+.hours{
+    background-color: #5abba3;
+    width: 100%;
+    height: 45%;
+}
+.adress{
+    background-color: rgb(202, 133, 133);
+    width: 100%;
+    height: 45%;
 }
 
 #info-resto p {
