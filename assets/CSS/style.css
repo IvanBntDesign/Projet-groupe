@@ -9,10 +9,14 @@
 /* -------------------- Zone 2 - Fin --------------------- */
 
 /* -------------------- Zone 3 - Début ------------------- */
-
+img {
+    width: 40%;
+    height: 200px;
+}
 #zone-3 {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 30vh 30vh 30vh;
     grid-template-areas: 
     "Plat-1 Intérieur-resto"
     "Façade Membre-équipe Plat-2";
@@ -27,10 +31,10 @@
     grid-area: Façade;
 }
 #photo-membre {
-    grid-area: Façade;
+    grid-area: Membre-équipe;
 }
 #photo-plat-2 {
-    grid-area: Façade;
+    grid-area: Plat-2;
 }
 /* -------------------- Zone 3 - Fin --------------------- */
 
