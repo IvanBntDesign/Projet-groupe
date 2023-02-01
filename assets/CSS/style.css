@@ -6,56 +6,72 @@
 
 /* -------------------- Zone 2 - Début ------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-body, html {
+
+body,
+html {
     font-family: 'Montserrat', sans-serif;
 }
+
 .font-vibes {
     font-family: 'Great Vibes', serif;
     font-size: xx-large;
 }
+
 .font-bold {
     font-weight: bold;
 }
+
 #zone-2 {
-    padding-left: 20px;
     background-color: burlywood;
     display: flex;
-    flex-direction: row;
     align-items: center;
-    height: 700px;
+    height: 110vh;
+    justify-content: space-around;
 }
+
 #formule-menu {
     background-color: #FDF2E2;
     width: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-right: 50px;
+    height: 100vh;
+    text-align: center;
+}
+#formule-menu p{
+    margin: 20px;
 }
 #presentation {
+    display: flex;
     background-color: blue;
     width: 30%;
-    padding-right: 50px;
-}
-#text-presentation {
-    display: flex;
     flex-direction: column;
-    width: 100%;
     align-items: center;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
 }
+
 #presentation p {
-    font-size: x-large;
+    font-size:large;
+    margin: 60px;
 }
+
 #info-resto {
     background-color: green;
-    width: 32%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100vh;
+    text-align: center;
+    justify-content: space-evenly;
 }
+
 #info-resto p {
     font-size: large;
 }
+
 /* -------------------- Zone 2 - Fin --------------------- */
 
 /* -------------------- Zone 3 - Début ------------------- */
@@ -63,4 +79,3 @@ body, html {
 
 /* -------------------- Zone 4 - Début ------------------- */
 /* -------------------- Zone 4 - Fin --------------------- */
-
