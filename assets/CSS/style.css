@@ -18,31 +18,37 @@ body, html {
 }
 #zone-2 {
     padding-left: 20px;
-    background-color: #FDF2E2;
+    background-color: burlywood;
     display: flex;
     flex-direction: row;
     align-items: center;
     height: 700px;
 }
 #formule-menu {
-    width: 36%;
+    background-color: #FDF2E2;
+    width: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-right: 50px;
+}
+#presentation {
+    background-color: blue;
+    width: 30%;
     padding-right: 50px;
 }
 #text-presentation {
-    width: 30%;
-    padding-right: 50px;
     display: flex;
     flex-direction: column;
+    width: 100%;
     align-items: center;
 }
-#text-presentation p {
+#presentation p {
     font-size: x-large;
 }
 #info-resto {
-    width: 34%;
+    background-color: green;
+    width: 32%;
     display: flex;
     flex-direction: column;
     align-items: center;
