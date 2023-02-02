@@ -73,8 +73,6 @@ body, html {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    font-weight: 700;
-    font-size: 30px;
     cursor:pointer;
     transform:scale(0.96);
 }
@@ -87,7 +85,8 @@ body, html {
 }
 #gallery p {
     font-family: 'Neuton', serif;
-    font-size: 50px;
+    font-weight: 700;
+    font-size: 4em;
     color: #B4471C;
 
 }
