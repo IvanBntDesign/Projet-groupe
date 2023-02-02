@@ -15,27 +15,31 @@
 }
 #zone-3 {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 30vh 30vh 30vh;
     grid-template-areas: 
-    "Plat-1 Intérieur-resto"
-    "Façade Membre-équipe Plat-2";
+    "a b c"
+    "d d e";
 }
-#photo-plat-1 {
-    grid-area: Plat-1;
+.photo-plat-1 {
+    grid-area:a;
 }
-#photo-interieur {
-    grid-area: Intérieur-resto;
+.photo-interieur {
+    grid-area:b;
 }
-#photo-façade {
-    grid-area: Façade;
+.photo-façade {
+    grid-area:c;
 }
-#photo-membre {
-    grid-area: Membre-équipe;
+.photo-membre {
+    grid-area:d;
 }
+<<<<<<< HEAD
 #photo-plat-2 {
     grid-area: Plat-2;
 } */
+=======
+.photo-plat-2 {
+    grid-area:e;
+}
+>>>>>>> 68fc7db1a73d2d985a13a1789e5a874b6a92d3ee
 /* -------------------- Zone 3 - Fin --------------------- */
 
 /* -------------------- Zone 4 - Début ------------------- */
