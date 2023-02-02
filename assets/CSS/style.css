@@ -16,34 +16,14 @@ body, html {
 /* -------------------- Zone 2 - Fin --------------------- */
 
 /* -------------------- Zone 3 - Début ------------------- */
-.container-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
 /* -------------------- Zone 3 - Fin --------------------- */
 
 /* -------------------- Zone 4 - Début ------------------- */
-form {
-    margin: auto;
-    text-align: center;
-}
-form input {
-    margin-bottom: 3px;
-    width: 300px;
-    height: 40px;
-    border: 1px solid grey;
-    border-radius: 4px;
-} 
-.button { /* classe qui permet de modifier le style du bouton du formulaire */
-    width: 308px;
-    background-color: #7D633C;
-    color: white;
-    border-radius: 4px;
-    border: none;
-    cursor: pointer;
-}
-.button:hover {
-    background-color: #B4471C;
+#zone-4 img {
+    width: 100px;
 }
 /* -------------------- Zone 4 - Fin --------------------- */
+
+/* -------------------- Zone 5 - Début ------------------- */
+/* -------------------- Zone 5 - Fin --------------------- */
 
