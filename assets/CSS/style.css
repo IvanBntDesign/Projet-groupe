@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Neuton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-body, html {
+
+body,
+html {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
@@ -16,71 +18,65 @@ body, html {
 /* -------------------- Zone 2 - Fin --------------------- */
 
 /* -------------------- Zone 3 - Début ------------------- */
-.container-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
 /* -------------------- Zone 3 - Fin --------------------- */
 
 /* -------------------- Zone 4 - Début ------------------- */
+
 form {
-    margin: auto;
     text-align: center;
 }
 form input {
-    margin-bottom: 10px;
-    width: 300px;
+    margin-bottom: 2%;
+    width: 48.5%;
     height: 30px;
     border: 1px solid grey;
     border-radius: 4px;
     font-family: 'Neuton';
-    font-size: 20px;
-} 
-.button { /* classe qui permet de modifier le style du bouton du formulaire */
-    width: 200px;
+    font-size: 1.2em;
+    background-color: #FDF2E2;
+}
+.button {
+    width: 30%;
     height: 40px;
-    background-color:white;
+    background-color: #FDF2E2;
     border-radius: 40px;
     border: none;
     cursor: pointer;
     margin-top: 20px;
+    color: #313131;
 }
-
 textarea {
     border-radius: 4px;
-    font-family: 'Neuton';
-    font-size: 20px;
-}
-
-.button:hover {
+    font-family: 'Neuton', serif;
+    font-size: 1.2em;
     background-color: #FDF2E2;
 }
-
-#Form {
+.button:hover {
+    background-color: #B4471C;
+    color: #FDF2E2;
+}
+#zone-5 {
     background-color: #313131;
     display: flex;
+    padding: 2% 5% 2% 5%;
+}
+#zone-5 h2 {
+    text-align: center;
+    font-family: 'Great vibes', cursive;
+    color: #FDF2E2;
+    font-size: 3em;
+}
+.large {
+    width: 100%;
+}
+.inputbasic {
+    width: 100%;
+}
+img {
+    width: 95%;
     padding-left: 5%;
 }
-
-.large {
-    width: 610px;
-}
-
-.large-1 {
-    width: 610px;
-}
-
-.large-2 {
-    width: 610px;
-}
-
-img {
-    width: 670px;
-    margin-left: 5%;
-    padding-right: 5%;
-}
-
-.network {
+/* .network {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
@@ -88,13 +84,11 @@ img {
     color: white;
     font-size: 20px;
 }
-
 .facebook {
     width: 50px;
 }
-
 .instagram {
     width: 30px;
 }
+ */
 /* -------------------- Zone 4 - Fin --------------------- */
-
