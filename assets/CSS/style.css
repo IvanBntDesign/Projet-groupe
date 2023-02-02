@@ -20,7 +20,34 @@ body, html {
 
 /* -------------------- Zone 4 - Début ------------------- */
 #zone-4 img {
-    width: 100px;
+ width: 100%;
+}
+#gallery {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: 
+    "beef beef beef beef beef inside inside inside inside inside inside inside"
+    "outside outside outside outside cook cook cook cook waffle waffle waffle waffle";
+    gap: 20px;
+}
+#beef {
+    grid-area: beef;
+}
+#inside {
+    grid-area: inside;
+}
+#outside {
+    grid-area: outside;
+}
+#cook {
+    grid-area: cook;
+}
+#waffle {
+    grid-area: waffle;
 }
 /* -------------------- Zone 4 - Fin --------------------- */
 
