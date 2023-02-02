@@ -1,37 +1,41 @@
 /* -------------------- Général - Début ------------------- */
+
 /* -------------------- Général - Fin --------------------- */
 
 /* -------------------- Zone 1 - Début ------------------- */
 /* -------------------- Zone 1 - Fin --------------------- */
 
 /* -------------------- Zone 2 - Début ------------------- */
+/* -------------------- Zone 2 - Fin --------------------- */
+
+/* -------------------- Zone 3 - Début ------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Neuton&display=swap');
 
 body,
 html {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
-
 .font-vibes {
     font-family: 'Great Vibes', serif;
     font-size: xx-large;
 }
-
-.font-bold {
-    font-weight: bold;
+.font-neuton {
+    font-family: 'Neuton', serif;
+    font-size: x-large;
 }
 #zone-2 {
-    background-color: burlywood;
+    background-color: white;
+    color: #313131;
     display: flex;
     align-items: center;
-    height: 110vh;
-    justify-content: space-around;
+    height: 100vh;
+    justify-content: space-evenly;
 }
 #formule-menu {
-    background-color: #c47602;
-    width: 30%;
+    border: 2px solid #313131;
+    width: 35%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,22 +45,8 @@ html {
 #formule-menu p{
     margin: 20px;
 }
-#presentation {
-    display: flex;
-    background-color: rgb(88, 88, 193);
-    width: 30%;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
-    text-align: center;
-    justify-content: center;
-}
-#presentation p {
-    font-size:large;
-    margin: 60px;
-}
 #info-resto {
-    width: 30%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -68,7 +58,7 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #5abba3;
+    border: 2px solid #313131;
     width: 100%;
     height: 45%;
 }
@@ -76,18 +66,15 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgb(202, 133, 133);
+    border: 2px solid #313131;
     width: 100%;
     height: 45%;
 }
 #info-resto p {
     font-size: large;
 }
-
-/* -------------------- Zone 2 - Fin --------------------- */
-
-/* -------------------- Zone 3 - Début ------------------- */
 /* -------------------- Zone 3 - Fin --------------------- */
 
 /* -------------------- Zone 4 - Début ------------------- */
 /* -------------------- Zone 4 - Fin --------------------- */
+
