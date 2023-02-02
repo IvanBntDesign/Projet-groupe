@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Neuton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
@@ -9,16 +9,17 @@ body {
     width: 100%;
     height: 100vh;
 }
+
 /* -------------------- Général - Début ------------------- */
 .background{
     background-color: rgba(171, 184, 184, 0.445);
     width: 100%;
     height: 100%;
-    background-image: url("../assets/img/table-header.jpg");
+    background-image: url("../img/table-header.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-blend-mode: lighten;
-    text-align:  center;
+    text-align: center;
 }
 .logo{
     position: relative;
@@ -63,14 +64,14 @@ a:hover {
 }
 .title{
     font-family: 'Great Vibes', cursive;
-    font-size: 85pt;
+    font-size: 80pt;
     margin-bottom: 0;
-    color: #313131ad;
+    color: #313131;
 }
 .txt{
     font-family: 'Neuton', serif;
-    font-size: 55pt;
-    color: #313131ad;
+    font-size: 50pt;
+    color: #313131;
 }
 /* -------------------- Général - Fin ------------------- */
 
@@ -78,6 +79,7 @@ a:hover {
 .flex-container {
     display: flex;
     justify-content: space-evenly;
+
 }
 .font-vibes {
     font-family: 'Great Vibes', serif;
@@ -85,7 +87,7 @@ a:hover {
 }
 .font-neuton {
     font-family: 'Neuton', serif;
-    font-size: x-large;
+    font-size: 17px;
 }
 #zone-2 {
     background-color: white;
@@ -93,22 +95,21 @@ a:hover {
     display: flex;
     align-items: center;
     height: 100vh;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
-#video {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 30%;
-    height: 600px;
-}
-#presentation {
+#video-presentation {
     display: flex;
     width: 30%;
+    height: 70%;
+}
+#text-presentation {
+    display: flex;
+    width: 30%;
+    height: 70%;
     flex-direction: column;
-    align-items: center;
-    height: 600px;
+    justify-content: space-between;
     text-align: center;
+    
 }
 /* -------------------- Zone 2 - Fin --------------------- */
 
@@ -118,11 +119,11 @@ a:hover {
     color: #313131;
     display: flex;
     align-items: center;
-    height: 100%;
+    height: 100vh;
     justify-content: space-evenly;
 }
 #formule-menu p {
-    margin: 3;
+    margin: 1;
 }
 #formule-menu {
     border: 2px solid #313131;
@@ -141,6 +142,9 @@ a:hover {
     text-align: center;
     justify-content: space-around;
 }
+#info-resto p {
+    margin: 0;
+}
 .hours{
     display: flex;
     flex-direction: column;
@@ -148,9 +152,6 @@ a:hover {
     border: 2px solid #313131;
     width: 100%;
     height: 40%;
-}
-#info-resto p {
-    margin: 0;
 }
 .adress{
     display: flex;
@@ -161,3 +162,51 @@ a:hover {
     height: 40%;
 }
 /* -------------------- Zone 3 - Fin --------------------- */
+
+/* -------------------- Zone - responsive -------------------- */
+
+@media screen and (min-width: 375px) and (max-width: 600px) {
+    .logotype {
+        height: 200px;
+    }
+    .background {
+        background-size: 100% 100%;
+        height: 50%;
+    }
+    .background a, .background p {
+        font-size: 10pt;
+    }
+    #zone-2 {
+        margin-top: 10px;
+        height: 60%;
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    #text-presentation h2 {
+        font-size: 20pt;
+    }
+    #text-presentation p {
+        font-size: 20px;
+    }
+    #zone-3 {
+        display: flex;
+        flex-direction: column;
+    }
+    #info-resto {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .hours {
+        font-size: 5px;
+    } 
+    .adress {
+        font-size: 3px;
+    }
+    #zone-3 p {
+       font-size: 7pt;
+    }
+    #zone-3 h2 {
+        font-size: 13pt;
+    }
+}
