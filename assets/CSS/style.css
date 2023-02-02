@@ -163,6 +163,80 @@ a:hover {
 }
 /* -------------------- Zone 3 - Fin --------------------- */
 
+/* -------------------- Zone 4 - Début --------------------- */
+#zone-4 img {
+    width: 100%;
+   }
+   #gallery {
+       margin-left: 50px;
+       margin-right: 50px;
+       margin-top: 20px;
+       margin-bottom: 20px;
+       display: grid;
+       grid-template-columns: repeat(12, 1fr);
+       grid-template-areas: 
+       "beef beef beef beef beef inside inside inside inside inside inside inside"
+       "outside outside outside outside cook cook cook cook waffle waffle waffle waffle";
+       gap: 20px;
+   }
+   #beef {
+       grid-area: beef;
+   }
+   #inside {
+       grid-area: inside;
+   }
+   #outside {
+       grid-area: outside;
+   }
+   #cook {
+       grid-area: cook;
+   }
+   #waffle {
+       grid-area: waffle;
+   }
+   .overlay {
+       position: relative;
+       display: inline-block;
+   }
+   .overlay img {
+       vertical-align: middle;
+       transition: transform .4s;
+   }
+   .overlay .hoverImg {
+       position: absolute;
+       top: 0;
+       bottom: 0;
+       left: 0;
+       right: 0;
+       opacity: 0;
+       transition: opacity 0.25s ease-in-out;
+       background-color: rgba(255, 255, 255, 0.6);
+       color: #fff;
+       padding: 30px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+       text-align: center;
+       cursor:pointer;
+       transform:scale(0.96);
+   }
+   .overlay:hover .hoverImg {
+       opacity: 1;
+   }
+   .overlay:hover img {
+       cursor:pointer;
+       transform:scale(0.96);
+   }
+   #gallery p {
+       font-family: 'Neuton', serif;
+       font-weight: 700;
+       font-size: 4em;
+       color: #B4471C;
+   
+   }
+/* -------------------- Zone 4 - Fin -------------------- */
+
 /* -------------------- Zone - responsive -------------------- */
 
 @media screen and (min-width: 375px) and (max-width: 600px) {
