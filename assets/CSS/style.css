@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neuton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+/* -------------------- Général - Début ------------------- */
+.background{
+    background-color: rgba(171, 184, 184, 0.445);
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/img/table-header.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+    text-align:  center;
+}
+.logo{
+    position: relative;
+    left: 35%;
+    width: 30%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.logotype{
+    width: auto;
+    height: 550px;
+}
+ul {
+    display: flex;
+    justify-content: center;
+}
+li {
+    display: flex;
+    justify-content: space-around;
+    width: 1600px;
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color:#FDF2E2;
+    font-size: 34pt;
+    font-family: 'Neuton', serif;
+}
+a:hover {
+    color: brown;
+}
+.navbar{
+    padding: 1px;
+    background-color:#313131;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.title{
+    font-family: 'Great Vibes', cursive;
+    font-size: 85pt;
+    margin-bottom: 0;
+    color: #313131ad;
+}
+.txt{
+    font-family: 'Neuton', serif;
+    font-size: 55pt;
+    color: #313131ad;
+}
+/* -------------------- Général - Fin ------------------- */
+
+/* -------------------- Zone 2 - Début --------------------- */
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.font-vibes {
+    font-family: 'Great Vibes', serif;
+    font-size: xx-large;
+}
+.font-neuton {
+    font-family: 'Neuton', serif;
+    font-size: x-large;
+}
+#zone-2 {
+    background-color: white;
+    color: #313131;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-around;
+}
+#video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 600px;
+}
+#presentation {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    text-align: center;
+}
+/* -------------------- Zone 2 - Fin --------------------- */
+
+/* -------------------- Zone 3 - Début ------------------- */
+#zone-3 {
+    background-color: white;
+    color: #313131;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-evenly;
+}
+#formule-menu p {
+    margin: 3;
+}
+#formule-menu {
+    border: 2px solid #313131;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+#info-resto {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    justify-content: space-around;
+}
+.hours{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid #313131;
+    width: 100%;
+    height: 40%;
+}
+#info-resto p {
+    margin: 0;
+}
+.adress{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid #313131;
+    width: 100%;
+    height: 40%;
+}
+/* -------------------- Zone 3 - Fin --------------------- */
