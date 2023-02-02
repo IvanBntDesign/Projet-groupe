@@ -28,22 +28,73 @@ form {
     text-align: center;
 }
 form input {
-    margin-bottom: 3px;
+    margin-bottom: 10px;
     width: 300px;
-    height: 40px;
+    height: 30px;
     border: 1px solid grey;
     border-radius: 4px;
+    font-family: 'Neuton';
+    font-size: 20px;
 } 
 .button { /* classe qui permet de modifier le style du bouton du formulaire */
-    width: 308px;
-    background-color: #7D633C;
-    color: white;
-    border-radius: 4px;
+    width: 200px;
+    height: 40px;
+    background-color:white;
+    border-radius: 40px;
     border: none;
     cursor: pointer;
+    margin-top: 20px;
 }
+
+textarea {
+    border-radius: 4px;
+    font-family: 'Neuton';
+    font-size: 20px;
+}
+
 .button:hover {
-    background-color: #B4471C;
+    background-color: #FDF2E2;
+}
+
+#Form {
+    background-color: #313131;
+    display: flex;
+    padding-left: 5%;
+}
+
+.large {
+    width: 610px;
+}
+
+.large-1 {
+    width: 610px;
+}
+
+.large-2 {
+    width: 610px;
+}
+
+img {
+    width: 670px;
+    margin-left: 5%;
+    padding-right: 5%;
+}
+
+.network {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    font-family: 'Montserrat alternates';
+    color: white;
+    font-size: 20px;
+}
+
+.facebook {
+    width: 50px;
+}
+
+.instagram {
+    width: 30px;
 }
 /* -------------------- Zone 4 - Fin --------------------- */
 
