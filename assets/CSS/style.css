@@ -6,9 +6,6 @@
 /* -------------------- Zone 1 - Fin --------------------- */
 
 /* -------------------- Zone 2 - Début ------------------- */
-/* -------------------- Zone 2 - Fin --------------------- */
-
-/* -------------------- Zone 3 - Début ------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Neuton&display=swap');
@@ -53,6 +50,13 @@ html {
     height: 600px;
     text-align: center;
 }
+/* -------------------- Zone 2 - Fin --------------------- */
+
+/* -------------------- Zone 3 - Début ------------------- */
+
+
+
+/* -------------------- Zone 3 - Fin --------------------- */
 #zone-3 {
     background-color: white;
     color: #313131;
@@ -100,9 +104,6 @@ html {
     width: 100%;
     height: 40%;
 }
-
-/* -------------------- Zone 3 - Fin --------------------- */
-
 /* -------------------- Zone 4 - Début ------------------- */
 /* -------------------- Zone 4 - Fin --------------------- */
 
