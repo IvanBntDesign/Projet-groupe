@@ -58,11 +58,11 @@ html {
     color: #313131;
     display: flex;
     align-items: center;
-    height: 100vh;
+    height: 100%;
     justify-content: space-evenly;
 }
 #formule-menu p {
-    margin: 15;
+    margin: 3;
 }
 #formule-menu {
     border: 2px solid #313131;
@@ -79,7 +79,7 @@ html {
     align-items: center;
     height: 100vh;
     text-align: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .hours{
     display: flex;
@@ -87,7 +87,10 @@ html {
     justify-content: center;
     border: 2px solid #313131;
     width: 100%;
-    height: 45%;
+    height: 40%;
+}
+#info-resto p {
+    margin: 0;
 }
 .adress{
     display: flex;
@@ -95,11 +98,9 @@ html {
     justify-content: center;
     border: 2px solid #313131;
     width: 100%;
-    height: 45%;
+    height: 40%;
 }
-#info-resto p {
-    font-size: large;
-}
+
 /* -------------------- Zone 3 - Fin --------------------- */
 
 /* -------------------- Zone 4 - Début ------------------- */
