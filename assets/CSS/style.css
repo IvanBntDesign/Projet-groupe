@@ -10,12 +10,17 @@
 
 /* -------------------- Zone 3 - Début ------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Neuton&display=swap');
 
 body,
 html {
     font-family: 'Montserrat Alternates', sans-serif;
+    font-size: large;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
 }
 .font-vibes {
     font-family: 'Great Vibes', serif;
@@ -25,6 +30,29 @@ html {
     font-family: 'Neuton', serif;
     font-size: x-large;
 }
+#zone-2 {
+    background-color: white;
+    color: #313131;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-around;
+}
+#video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 600px;
+}
+#presentation {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    text-align: center;
+}
 #zone-3 {
     background-color: white;
     color: #313131;
@@ -33,17 +61,16 @@ html {
     height: 100vh;
     justify-content: space-evenly;
 }
+#formule-menu p {
+    margin: 15;
+}
 #formule-menu {
     border: 2px solid #313131;
     width: 35%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    height: 100vh;
     text-align: center;
-}
-#formule-menu p{
-    margin: 20px;
+    padding: 20px;
 }
 #info-resto {
     width: 40%;
