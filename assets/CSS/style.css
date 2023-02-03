@@ -285,9 +285,31 @@ textarea {
 .inputbasic {
     width: 100%;
 }
-img {
+.map  {
     width: 95%;
     padding-left: 5%;
+}
+footer {
+    display: flex;
+}
+.network {
+    margin: 3em;
+    text-align: right;
+}
+.network img {
+    width: 20%;
+    margin: 0.1em;
+}
+.legalMentions {
+    width: 500%;
+}
+.legalMentions p {
+    margin: 0.1em;
+    color: #313131;
+    font-size: 0.8em;
+}
+.legalMentions h2 {
+    font-size: 1em;
 }
 
 /* -------------------- Zone - responsive -------------------- */
