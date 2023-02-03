@@ -109,7 +109,6 @@ a:hover {
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
-    
 }
 /* -------------------- Zone 2 - Fin --------------------- */
 
@@ -236,6 +235,60 @@ a:hover {
    
    }
 /* -------------------- Zone 4 - Fin -------------------- */
+form {
+    text-align: center;
+}
+form input {
+    margin-bottom: 2%;
+    width: 48.5%;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    font-family: 'Neuton';
+    font-size: 1.2em;
+    background-color: #FDF2E2;
+}
+.button {
+    width: 30%;
+    height: 40px;
+    background-color: #FDF2E2;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    color: #313131;
+}
+textarea {
+    border-radius: 4px;
+    font-family: 'Neuton', serif;
+    font-size: 1.2em;
+    background-color: #FDF2E2;
+}
+.button:hover {
+    background-color: #B4471C;
+    color: #FDF2E2;
+}
+#zone-5 {
+    background-color: #313131;
+    display: flex;
+    padding: 2% 5% 2% 5%;
+}
+#zone-5 h2 {
+    text-align: center;
+    font-family: 'Great vibes', cursive;
+    color: #FDF2E2;
+    font-size: 3em;
+}
+.large {
+    width: 100%;
+}
+.inputbasic {
+    width: 100%;
+}
+img {
+    width: 95%;
+    padding-left: 5%;
+}
 
 /* -------------------- Zone - responsive -------------------- */
 
@@ -257,25 +310,25 @@ a:hover {
         flex-direction: column-reverse;
         width: 100%;
     }
+    #formule-menu {
+        width: 70%;
+    }
+    #info-resto {
+        width: 80%;
+    }
+    #video-presentation {
+        height: 100%;
+        width: 60%;
+    }
     #text-presentation h2 {
         font-size: 20pt;
     }
-    #text-presentation p {
-        font-size: 20px;
+    #text-presentation {
+        width: 80%;
     }
     #zone-3 {
         display: flex;
         flex-direction: column;
-    }
-    #info-resto {
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
-    .hours {
-        font-size: 5px;
-    } 
-    .adress {
-        font-size: 3px;
     }
     #zone-3 p {
        font-size: 7pt;
@@ -283,4 +336,52 @@ a:hover {
     #zone-3 h2 {
         font-size: 13pt;
     }
+    #info-resto {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .hours {
+        font-size: 5px;
+
+    } 
+    .adress {
+        font-size: 3px;
+    }
 }
+@media screen and (min-width: 600px) and (max-width: 995px) {
+    .background {
+        background-size: 100% 100%;
+        height: 50%;
+    }
+    .background a, .background p {
+        font-size: 20pt;
+    }
+    #zone-2 {
+        margin-top: 10px;
+        height: 60%;
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    #text-presentation h2 {
+        font-size: 10pt;
+    }
+    #text-presentation p {
+        font-size: 10px;
+    }
+    #zone-3 {
+        display: flex;
+        flex-direction: column;
+    }
+    #zone-3 p {
+        font-size: 10pt;
+     }
+    #zone-3 h2 {
+         font-size: 16pt;
+     }
+    #info-resto {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
+
