@@ -72,23 +72,33 @@ textarea {
 .inputbasic {
     width: 100%;
 }
-img {
+.map { /* /!\ img remplacé par .map */
     width: 95%;
     padding-left: 5%;
 }
-/* .network {
+/* -------- AJOUT FOOTER - Début ----------- */
+footer {
     display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    font-family: 'Montserrat alternates';
-    color: white;
-    font-size: 20px;
 }
-.facebook {
-    width: 50px;
+.network {
+    margin: 3em;
+    text-align: right;
 }
-.instagram {
-    width: 30px;
+.network img {
+    width: 20%;
+    margin: 0.1em;
 }
- */
+.legalMentions {
+    width: 500%;
+}
+.legalMentions p {
+    margin: 0.1em;
+    color: #313131;
+    font-size: 0.8em;
+}
+.legalMentions h2 {
+    font-size: 1em;
+}
+/* -------- AJOUT FOOTER - Fin ----------- */
+
 /* -------------------- Zone 4 - Fin --------------------- */
