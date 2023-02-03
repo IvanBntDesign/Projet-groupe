@@ -76,18 +76,14 @@ a:hover {
 /* -------------------- Général - Fin ------------------- */
 
 /* -------------------- Zone 2 - Début --------------------- */
-.flex-container {
-    display: flex;
-    justify-content: space-evenly;
 
-}
 .font-vibes {
     font-family: 'Great Vibes', serif;
     font-size: xx-large;
 }
 .font-neuton {
     font-family: 'Neuton', serif;
-    font-size: 17px;
+    font-size: 18px;
 }
 #zone-2 {
     background-color: white;
@@ -104,11 +100,15 @@ a:hover {
 }
 #text-presentation {
     display: flex;
-    width: 30%;
-    height: 70%;
+    width: 25%;
+    height: 50%;
     flex-direction: column;
+    align-items: center;
     justify-content: space-between;
     text-align: center;
+}
+#text-presentation p {
+    margin: 0;
 }
 /* -------------------- Zone 2 - Fin --------------------- */
 
