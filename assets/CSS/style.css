@@ -291,17 +291,19 @@ img {
 }
 
 /* -------------------- Zone - responsive -------------------- */
-
-@media screen and (min-width: 375px) and (max-width: 600px) {
-    .logotype {
-        height: 200px;
+@media screen and (min-width: 200px) and (max-width: 300px) {
+    .logotype{
+        height: 100px;
     }
     .background {
         background-size: 100% 100%;
-        height: 50%;
+        height: 40%;
     }
-    .background a, .background p {
-        font-size: 10pt;
+    .background a {
+        font-size: 7pt;
+    }
+    .background p {
+        font-size: 15px;
     }
     #zone-2 {
         margin-top: 10px;
@@ -317,8 +319,72 @@ img {
         width: 80%;
     }
     #video-presentation {
-        height: 100%;
+        height: 60%;
         width: 60%;
+        margin-bottom: 20px;
+    }
+    #text-presentation h2 {
+        font-size: 20pt;
+    }
+    #text-presentation {
+        width: 80%;
+    }
+    #zone-3 {
+        display: flex;
+        flex-direction: column;
+    }
+    #zone-3 p {
+       font-size: 7pt;
+    }
+    #zone-3 h2 {
+        font-size: 13pt;
+    }
+    #info-resto {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .adress {
+        height: 150px;
+    }
+    .hours {
+        height: 150px;
+    }
+    #zone-5 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (min-width: 350px) and (max-width: 600px) {
+    .logotype {
+        height: 150px;
+    }
+    .background {
+        background-size: 100% 100%;
+        height: 35%;
+    }
+    .background a {
+        font-size: 12pt;
+    }
+    .background p {
+        font-size: 17px;
+    }
+    #zone-2 {
+        margin-top: 10px;
+        height: 60%;
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    #formule-menu {
+        width: 70%;
+    }
+    #info-resto {
+        width: 80%;
+    }
+    #video-presentation {
+        height: 60%;
+        width: 60%;
+        margin-bottom: 20px;
     }
     #text-presentation h2 {
         font-size: 20pt;
@@ -341,14 +407,26 @@ img {
         justify-content: space-evenly;
     }
     .hours {
-        font-size: 5px;
-
+        font-size: 4px;
+        height: 150px;
     } 
     .adress {
-        font-size: 3px;
+        font-size: 2px;
+        height: 150px;
+    }
+    #gallery p {
+        font-size: small;
+    }
+    #zone-5 {
+        display: flex;
+        flex-direction: column;
     }
 }
-@media screen and (min-width: 600px) and (max-width: 995px) {
+@media screen and (min-width: 600px) and (max-width: 1295px) {
+    /* ----------------- Début Zone 1 ---------------- */
+    .logotype {
+        height: 250px;
+    }
     .background {
         background-size: 100% 100%;
         height: 50%;
@@ -357,31 +435,59 @@ img {
         font-size: 20pt;
     }
     #zone-2 {
-        margin-top: 10px;
-        height: 60%;
+        margin-top: 250px;
+        height: 1000px;
         display: flex;
         flex-direction: column-reverse;
         width: 100%;
     }
-    #text-presentation h2 {
-        font-size: 10pt;
-    }
     #text-presentation p {
-        font-size: 10px;
+        font-size: 17px;
+    }
+    #text-presentation h2 {
+        font-size: 30px;
+    }
+    #video-presentation {
+        width: 60%;
+        margin-top: 50px;
+        margin-bottom: 250px;
     }
     #zone-3 {
+        height: 1000px;
         display: flex;
         flex-direction: column;
     }
-    #zone-3 p {
-        font-size: 10pt;
-     }
     #zone-3 h2 {
-         font-size: 16pt;
-     }
+         font-size: 14pt;
+    }
+    #formule-menu {
+        width: 70%;
+    }
     #info-resto {
-        flex-direction: row;
-        justify-content: space-evenly;
+       display: flex;
+       flex-direction: row;
+       width: 80%;
+       height: 300px;
+    }
+    .adress {
+        font-size: 18px;
+        height: 220px;
+    }
+    .hours  {
+        font-size: 18px;
+        height: 220px;
+    }
+    #gallery p {
+        font-size: small;
+    }
+    #zone-5 {
+        display: flex;
+        flex-direction: column;
     }
 }
-
+/* @media screen and (min-width: 995px) and (max-width: 1300px) {
+    #zone {
+        display: flex;
+        flex-direction: column;
+    }
+} */
