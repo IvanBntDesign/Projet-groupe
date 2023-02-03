@@ -9,7 +9,6 @@ body {
     width: 100%;
     height: 100vh;
 }
-
 /* -------------------- Général - Début ------------------- */
 .background{
     background-color: rgba(171, 184, 184, 0.445);
@@ -232,7 +231,6 @@ a:hover {
        font-weight: 700;
        font-size: 4em;
        color: #B4471C;
-   
    }
 /* -------------------- Zone 4 - Fin -------------------- */
 form {
